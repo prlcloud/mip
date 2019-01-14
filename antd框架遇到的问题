@@ -1,0 +1,5 @@
+1.问题描述：
+Warning: `Form.Item` cannot generate `validateStatus` and `help` automatically, while there are more than one `getFieldDecorator` in it.
+__stack_frame_overlay_proxy_console__ @ umi.js:174483
+解决办法：
+这个警告的意思是一个form表单域中不能定义两个字段，所以只要保证表单域中只定义一个字段就可以完美解决这个问题。
