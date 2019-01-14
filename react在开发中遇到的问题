@@ -1,0 +1,3 @@
+问题1：
+Warning: OrderMaterial.componentWillMount(): Assigning directly to this.state is deprecated (except inside a component's constructor). Use setState instead.
+解决办法：
